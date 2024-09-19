@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.COMP90018Tutorials2024">
         <activity
+            android:name=".NewActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
